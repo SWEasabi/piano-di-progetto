@@ -1,0 +1,52 @@
+\chapter{Modello}
+Le scelte che sono state fatte per il progetto sono:
+\begin{itemize}
+    \item PDCA con miglioramento continuo, per una manutenzione migliorativa al {\it{way of working}};
+    \item Modello a V, per la suddivisione del progetto in singole fasi dettagliate;
+    \item Modello incrementale, per lo sviluppo delle singole fasi del progetto;
+\end{itemize}
+
+\section{PDCA con miglioramento continuo}
+\subsection{Cos'è e perché si usa}
+Il controllo di processo constente di attuare manutenzione migliorativa al proprio \textit{way of working} (da qui il "Principio del miglioramento continuo"). Il PDCA prevede un ciclo a 4 stadi per apportare specifiche migliorie a specifici processi:
+\begin{itemize}
+    \item \textbf{Pianificare (Plan):}
+    Definire o apportare modifiche esplorative al \textit{way of working} in modo da raggiungere specifici obiettivi di miglioramento della qualità di processo e quindi di prodotto; 
+    \item \textbf{Eseguire (Do):} Eseguire le attività secondo Plan; 
+    \item \textbf{Valutare (Check):} Verificare l’esito delle azioni di miglioramento rispetto alle attese. L'obiettivo di questa fase è di valutare il successo del way of working adottato e di identificare eventuali aree in cui è necessario apportare miglioramenti;
+    \item \textbf{Agire (Act):} Le modifiche che passano positivamente la valutazione vengono incluse nel prodotto finale, continuando a lavorare su ciò che rimane da migliorare. Una volta che le soluzioni adottate hanno dimostrato di funzionare, è opportuno procedere a:
+    \begin{itemize}
+        \item standardizzare il miglioramento ottenuto applicandolo in via definitiva;
+        \item individuare eventuali esigenze di formazione del personale per rendere operative le soluzioni adottate;
+        \item continuare a monitorare la situazione ripetendo il ciclo più volte fino a raggiungere i miglioramenti desiderati;
+        \item individuare altre opportunità di miglioramento che potranno tornare utili nei processi futuri;
+    \end{itemize}
+\end{itemize}
+
+\section{Modello a V (V-Model)}
+Oltre alle rispettive fasi di sviluppo di un progetto, il V-model definisce in parallelo le procedure di garanzia della qualità e descrive come queste singole fasi possono interagire tra loro. Il modello di sviluppo deve il nome alla sua struttura, che è simile alla lettera V.
+In primo luogo, il V-model definisce lo svolgimento di un progetto in singole fasi che vanno sempre più nel dettaglio:
+\begin{itemize}
+    \item all'inizio del progetto, il modello prevede un'analisi dei requisiti generali del sistema pianificato;
+    \item in seguito si arricchisce di requisiti funzionali e non funzionali per l’architettura di sistema;
+    \item segue la progettazione del sistema, in cui sono pianificati i componenti e le interfacce del sistema;
+    \item una volta completate queste fasi, può essere progettata nel dettaglio l'architettura del software;
+\end{itemize}
+Dopodiché segue l’effettivo sviluppo del software secondo gli schemi definiti e infine le fasi di garanzia della qualità, riferite alle varie fasi di sviluppo. Il modello prevede i seguenti compiti:
+\begin{itemize}
+    \item unit testing;
+    \item test d'integrazione;
+    \item integrazione di sistema;
+    \item collaudo;
+\end{itemize}
+La "V" indica la struttura di questo modello, che confronta le fasi di sviluppo con le fasi di garanzia della qualità corrispondenti. Il braccio sinistro della lettera V contiene i compiti per l'elaborazione iniziale e lo sviluppo del sistema, mentre il braccio destro mostra le relative misure per la garanzia della qualità. Al centro delle due braccia, tra le fasi dello sviluppo e della garanzia della qualità, si trova l'implementazione del prodotto. Nel caso di un progetto software, questa consisterebbe nella codifica del software.
+
+\section{Modello incrementale}
+Il modello incrementale prevede rilasci multipli e successivi, quindi vogliamo che ci sia un incremento delle funzionalità dopo ogni rilascio. In questo modo viene ridotto il rischio di fallimento ed il lavoro procederà solo dopo l’accettazione da parte del proponente. L'instabilità dei requisiti può essere gestita solo tra un rilascio e l'altro, ma comunque con l’approvazione da parte di Imola informatica (i requisiti più "importanti" verranno stabiliti per primi). I principali vantaggi di questo modello sono:
+\begin{itemize}
+    \item possibilità di presentare al proponente un prodotto sempre funzionante;
+    \item si combina bene con il versionamento, rendendo più visibili le modifiche;
+    \item gestione delle priorità tra i vari requisiti, dando priorità a funzionalità primarie;
+    \item gli errori sono limitati all’incremento corrente e la loro correzione è più economica;
+    \item gli incrementi terminano solo quando verrà accettato il prodotto con quanto di nuovo introdotto, riducendo così la possibilità di trascinare errori durante lo sviluppo del progetto.
+\end{itemize}
